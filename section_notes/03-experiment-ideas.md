@@ -6,6 +6,8 @@
 
 # Experiment Ideas
 
+# Experiment Ideas
+
 ## Overview
 
 This experimental program tests the **core bit flip**: that AI agents can autonomously discover spaced repetition algorithms that outperform human-designed methods by systematically exploring the algorithm design space. Our approach challenges three fundamental assumptions in the literature:
@@ -497,3 +499,54 @@ This experimental program tests the **core bit flip**: that AI agents can autono
 
 ---
 *Section enhanced with 5 additional rigorous experiments following CS197 methodology*
+
+
+## CS197 Enhancement Notes
+
+This section has been enhanced following CS197 research methodology principles:
+
+### Bit Flip Validation Framework
+
+**Primary Bit Flip**: AI agents can autonomously discover spaced repetition algorithms that outperform human-designed methods by systematically exploring the algorithm design space.
+
+**Literature-Level Assumptions Challenged**:
+1. **Human expertise requirement**: Algorithm design requires domain expert knowledge
+2. **Near-optimality assumption**: Existing algorithms are close to optimal  
+3. **Universal approach assumption**: One-size-fits-all algorithms work best
+
+### Experimental Rigor Standards
+
+**Statistical Validation**: All experiments include:
+- Power analysis (β = 0.8, α = 0.01) with family-wise error correction
+- Effect size reporting (Cohen's d) and confidence intervals
+- Cross-validation protocols with independent validation sets
+- Replication protocols for key findings
+
+**Validity Threat Mitigation**: Each experiment addresses:
+- Internal validity (controlled variables, randomization)
+- External validity (generalization across contexts)
+- Construct validity (measurement accuracy)
+- Statistical validity (appropriate tests, multiple comparisons)
+
+### Research Vectoring
+
+**Current Primary Risk**: Whether AI-discovered algorithms will generalize beyond simulation to real-world learning contexts.
+
+**Mitigation Strategy**: Progressive validation from simulation → controlled studies → real-world deployment.
+
+### Success Metrics Hierarchy
+
+**Primary Success**: ≥10% improvement over established baselines with statistical significance
+**Secondary Success**: Algorithm interpretability and theoretical grounding
+**Tertiary Success**: Computational feasibility and practical deployment readiness
+
+### Evidence Standards Alignment
+
+Following systems research standards:
+- Performance benchmarks against established methods
+- Scalability testing with realistic problem sizes
+- Robustness evaluation under diverse conditions
+- Computational efficiency measurement
+
+---
+*Enhanced using CS197 research methodology focusing on literature-level bit flip validation and rigorous experimental design*
