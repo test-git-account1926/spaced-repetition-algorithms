@@ -3,7 +3,7 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **20 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **22 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
@@ -131,13 +131,25 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Relevance**: **Bit Flip** - automated AI-generated knowledge components can surpass human expert performance
 - **CS197 Insight**: Eliminates bottleneck of manual educational content design while exceeding human-level quality
 
+### Content-aware Spaced Repetition (2025)
+- **Authors**: Giacomo Randazzo
+- **Key Findings**: Traditional SRS systems ignore semantic relationships between cards; content-aware memory models using semantic embeddings enable intelligent learning tools
+- **Relevance**: **Bit Flip** - memory models should account for semantic meaning rather than just performance ratings and temporal data
+- **CS197 Insight**: Foundational change enabling next-generation learning systems including conversational SR and idea-centric memory systems
+
+### Irec: Metacognitive Scaffolding for Self-Regulated Learning (2025)  
+- **Authors**: Xuefei Hou, Xizhao Tan
+- **Key Findings**: Context-triggered insight recall using JITAI framework with dynamic knowledge graphs; LLM-powered similarity assessment for just-in-time learning scaffolding
+- **Relevance**: **Bit Flip** - decontextualized review replaced by context-aware insight retrieval for metacognitive enhancement
+- **CS197 Insight**: Shifts focus from isolated flashcard review to integrated learning experiences that leverage personal learning history
+
 ## Major Research Gaps
 
 ### Gap 1: Semantic Interference Modeling
 **Current State**: Most algorithms treat items independently  
 **Problem**: Semantic similarity creates interference patterns affecting retention  
-**Opportunity**: LLM-powered semantic modeling (demonstrated by LECTOR) could dramatically improve performance  
-**Research Direction**: Develop semantic-aware scheduling for different content domains
+**Opportunity**: LLM-powered semantic modeling (demonstrated by LECTOR) and content-aware memory models (Randazzo 2025) show dramatic potential  
+**Research Direction**: Develop semantic-aware scheduling integrating content embeddings with traditional performance metrics
 
 ### Gap 2: Individual Adaptation Mechanisms  
 **Current State**: Limited personalization beyond basic performance tracking  
@@ -158,10 +170,10 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 **Research Direction**: Multi-modal spaced repetition for text, images, procedures, concepts
 
 ### Gap 5: Real-World Learning Context Integration
-**Current State**: Laboratory or simplified simulation environments  
-**Problem**: Real learning involves distractions, motivation changes, varying schedules  
-**Opportunity**: Develop robust algorithms for messy real-world conditions  
-**Research Direction**: Context-aware scheduling accounting for learner state and environment
+**Current State**: Laboratory or simplified simulation environments with decontextualized review  
+**Problem**: Real learning involves distractions, motivation changes, varying schedules, and contextual triggers  
+**Opportunity**: Context-triggered insight recall (Irec) and dynamic knowledge graphs demonstrate potential for contextual learning  
+**Research Direction**: JITAI-framework implementation for just-in-time spaced repetition with metacognitive scaffolding
 
 ### Gap 6: Large-Scale Training Efficiency
 **Current State**: Random sampling from massive datasets in LLM training
@@ -225,14 +237,15 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 This literature review reveals that **spaced repetition is not just an educational technique but a fundamental learning optimization principle** with applications ranging from individual vocabulary learning to billion-parameter language model training. The evidence supports our research concept of an AI scientist autonomously discovering spaced repetition algorithms through several key insights:
 
 ### Validated Research Directions
-1. **Semantic-aware scheduling** (LECTOR) - addressing interference through LLM-powered similarity
+1. **Semantic-aware scheduling** (LECTOR, Content-aware SR) - addressing interference through LLM-powered similarity and content embeddings
 2. **Biological memory principles** (KUL-KT) - Hebbian learning with time-decay for few-shot adaptation  
 3. **Large-scale efficiency** (LFR Pedagogy) - 95% cost reduction through adaptive data prioritization
 4. **Interval optimization** (DRL-SRS) - timing more critical than item selection
 5. **Personalized forgetting** (Adaptive Forgetting Curves) - individual differences via neural networks
+6. **Context-triggered learning** (Irec) - dynamic knowledge graphs with just-in-time adaptive interventions
 
 ### Research Velocity Acceleration
-The **23 validated bit flips** identified across 20 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to universal learning optimization with clinical translation (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **25 validated bit flips** identified across 22 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery.
