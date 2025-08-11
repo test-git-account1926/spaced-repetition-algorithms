@@ -1,5 +1,7 @@
 # Experiment Ideas
 
+# Experiment Ideas
+
 ## Overview
 
 This experimental program tests the **core bit flip**: that AI agents can autonomously discover spaced repetition algorithms that outperform human-designed methods by systematically exploring the algorithm design space. Our approach challenges three fundamental assumptions in the literature:
@@ -148,7 +150,129 @@ This experimental program tests the **core bit flip**: that AI agents can autono
   - Secondary: Algorithm fairness across learner types
   - Tertiary: Personalization interpretability for educational applications
 
-### Experiment 4: Long-term Retention Validation Study
+### Experiment 4: Mathematical Optimization vs Heuristic Discovery
+
+**Bit Flip Tested**: Optimal spaced repetition can be derived mathematically vs heuristic-based AI discovery
+
+- **Objective**: Compare AI-discovered heuristic algorithms against mathematically optimal scheduling using marked temporal point processes (MTPP), testing whether heuristic discovery can match theoretical optimality.
+
+- **Hypothesis**: AI-discovered heuristic algorithms will achieve ≥95% of the performance of mathematically optimal MTPP-based scheduling while being 10x more computationally efficient in practice.
+
+- **Independent Variables**:
+  - Optimization approach (AI evolutionary search vs MTPP mathematical derivation vs hybrid methods)
+  - Computational budget (real-time constraints vs offline optimization)
+  - Problem complexity (number of items, learner diversity, time horizon)
+
+- **Dependent Variables**:
+  - Objective function value (retention maximization)
+  - Computational cost (CPU time, memory usage)
+  - Practical implementability (real-time scheduling feasibility)
+  - Robustness to model misspecification
+
+- **Methodology**:
+  1. **MTPP Implementation**: Code mathematically optimal scheduling based on Tabibian et al. (2017)
+  2. **AI Discovery Parallel**: Run evolutionary algorithm with same objective function
+  3. **Hybrid Approach**: Initialize evolutionary search with MTPP solutions
+  4. **Performance Comparison**: Measure retention outcomes and computational costs
+  5. **Robustness Testing**: Evaluate performance under model parameter uncertainty
+
+- **Expected Outcomes**:
+  - AI discovers near-optimal solutions with practical computational requirements
+  - Hybrid approach outperforms both pure methods
+  - Identification of when heuristic vs mathematical approaches excel
+
+- **Success Metrics**:
+  - Primary: ≥95% of MTPP performance with <10% computational cost
+  - Secondary: Real-time feasibility for 1000+ item scheduling
+  - Tertiary: Robustness maintenance under parameter uncertainty
+
+- **Validity Threats & Mitigations**:
+  - **Theoretical**: MTPP assumptions may not hold in practice → Test with empirical data
+  - **Computational**: Unfair comparison due to implementation efficiency → Optimize both approaches
+  - **Practical**: Mathematical optimality may not translate to real learning → Human validation studies
+
+### Experiment 5: Dynamic Difficulty Adaptation Discovery
+
+**Bit Flip Tested**: Item difficulty is static vs dynamically evolving through learning interactions
+
+- **Objective**: Test whether AI can discover algorithms that adapt item difficulty dynamically based on mnemonic anchoring, semantic interference, and learner progress, inspired by SuperMemo SM-18 innovations.
+
+- **Hypothesis**: AI-discovered dynamic difficulty algorithms will achieve ≥12% retention improvement over static difficulty baselines by learning context-dependent difficulty patterns and interference effects.
+
+- **Independent Variables**:
+  - Difficulty evolution model (linear progression, interference-based, attention-weighted)
+  - Context factors (semantic similarity, temporal proximity, cognitive load)
+  - Adaptation mechanism (rule-based, neural network, hybrid)
+
+- **Dependent Variables**:
+  - Difficulty prediction accuracy over time
+  - Retention improvement from dynamic vs static difficulty
+  - Learner burden changes due to better difficulty matching
+  - Interference reduction measurement
+
+- **Methodology**:
+  1. **Difficulty Modeling Infrastructure**: Implement dynamic difficulty tracking with multiple factors
+  2. **Interference Simulation**: Model semantic and temporal interference effects
+  3. **AI Discovery Process**: Evolve algorithms that learn difficulty patterns from:
+     - Item-item similarity interactions
+     - Learner response patterns
+     - Temporal spacing effects
+     - Cognitive load indicators
+  4. **Comparative Evaluation**: Test against static difficulty baselines
+  5. **Ablation Studies**: Isolate contributions of different difficulty factors
+
+- **Expected Outcomes**:
+  - Discovery of novel difficulty evolution patterns
+  - Significant improvement in learner-specific difficulty calibration
+  - Reduced cognitive burden through better difficulty matching
+
+- **Success Metrics**:
+  - Primary: ≥12% retention improvement with statistical significance
+  - Secondary: Difficulty prediction accuracy >80% after 30 days
+  - Tertiary: Learner satisfaction and engagement improvements
+
+### Experiment 6: Cross-Domain Generalization Discovery
+
+**Bit Flip Tested**: Spaced repetition is domain-specific vs universal learning optimization principle
+
+- **Objective**: Investigate whether AI can discover universal spaced repetition principles that generalize across completely different learning domains (vocabulary, motor skills, musical training, code debugging).
+
+- **Hypothesis**: AI-discovered universal algorithms will achieve ≥8% retention improvement across 4+ diverse learning domains compared to domain-specific optimized algorithms, validating spaced repetition as a fundamental learning principle.
+
+- **Independent Variables**:
+  - Learning domain (linguistic, motor, musical, cognitive, visual-spatial)
+  - Content representation (text, audio, visual, procedural)
+  - Evaluation metric (recall, recognition, skill transfer, retention curves)
+
+- **Dependent Variables**:
+  - Cross-domain performance consistency
+  - Domain-specific adaptation requirements
+  - Universal vs specialized algorithm trade-offs
+  - Transfer learning effectiveness
+
+- **Methodology**:
+  1. **Multi-Domain Setup**: Implement 5 distinct learning environments:
+     - Foreign language vocabulary acquisition
+     - Piano chord progression learning
+     - Programming concept debugging
+     - Visual pattern recognition
+     - Motor sequence learning
+  2. **Universal Algorithm Discovery**: Train AI to find algorithms that perform well across all domains
+  3. **Domain-Specific Baselines**: Optimize separate algorithms for each domain
+  4. **Transfer Learning Analysis**: Test how well algorithms transfer between domains
+  5. **Theoretical Analysis**: Identify universal principles vs domain-specific adaptations
+
+- **Expected Outcomes**:
+  - Discovery of core universal principles (spacing intervals, difficulty progression)
+  - Identification of domain-specific adaptation requirements
+  - Evidence for spaced repetition as fundamental learning optimization
+
+- **Success Metrics**:
+  - Primary: ≥8% improvement across all 5 domains simultaneously
+  - Secondary: Universal algorithm performs within 5% of domain-specific algorithms
+  - Tertiary: Identification of 3+ universal principles with theoretical backing
+
+### Experiment 7: Long-term Retention Validation Study
 
 **Bit Flip Tested**: AI-discovered algorithms maintain advantages over extended time periods
 
@@ -157,7 +281,7 @@ This experimental program tests the **core bit flip**: that AI agents can autono
 - **Hypothesis**: AI-discovered algorithms will maintain ≥8% retention advantage over 365-day periods, with benefits increasing over time due to superior long-term scheduling optimization.
 
 - **Methodology**:
-  1. **Extended Simulation**: Run best-performing algorithms from Experiments 1-3 over 365-day periods
+  1. **Extended Simulation**: Run best-performing algorithms from Experiments 1-6 over 365-day periods
   2. **Memory Consolidation Modeling**: Include sleep-dependent memory consolidation effects
   3. **Real-world Validation**: Deploy discovered algorithms in controlled human studies (n=100 per condition)
   4. **Longitudinal Analysis**: Track performance degradation and maintenance patterns
@@ -169,36 +293,48 @@ This experimental program tests the **core bit flip**: that AI agents can autono
 
 ## Timeline and Resource Requirements
 
-**Phase 1 (Weeks 1-4): Infrastructure Development**
-- Simulation environment implementation
-- Baseline algorithm coding and validation
-- Evolutionary framework setup
+**Phase 1 (Weeks 1-6): Infrastructure Development**
+- Simulation environment implementation with multi-domain support
+- Baseline algorithm coding and validation (SM-2, SM-17, FSRS, MTPP)
+- Evolutionary framework setup with semantic and dynamic difficulty capabilities
+- Mathematical optimization infrastructure (MTPP implementation)
 
-**Phase 2 (Weeks 5-12): Core Discovery Experiments** 
-- Experiments 1-2 execution
-- Statistical analysis and algorithm interpretation
-- Performance optimization
+**Phase 2 (Weeks 7-18): Core Discovery Experiments** 
+- Experiment 1: AI vs Expert Baselines (Weeks 7-9)
+- Experiment 2: Semantic-Aware Discovery (Weeks 10-12)
+- Experiment 4: Mathematical vs Heuristic Optimization (Weeks 13-15)
+- Statistical analysis and algorithm interpretation (Weeks 16-18)
 
-**Phase 3 (Weeks 13-20): Advanced Discovery**
-- Experiment 3 adaptive personalization
-- Cross-experiment synthesis and comparison
-- Novel algorithm documentation
+**Phase 3 (Weeks 19-32): Advanced Discovery**
+- Experiment 3: Adaptive Personalization Discovery (Weeks 19-23)
+- Experiment 5: Dynamic Difficulty Adaptation (Weeks 24-27)  
+- Experiment 6: Cross-Domain Generalization (Weeks 28-32)
+- Cross-experiment synthesis and novel algorithm documentation
 
-**Phase 4 (Weeks 21-36): Long-term Validation**
-- Experiment 4 extended simulation
-- Human validation study preparation and execution
-- Final analysis and publication preparation
+**Phase 4 (Weeks 33-48): Validation and Integration**
+- Experiment 7: Long-term Retention Validation (Weeks 33-40)
+- Human validation study preparation and execution (Weeks 41-45)
+- Final analysis, theoretical integration, and publication preparation (Weeks 46-48)
 
 **Computing Resources**: 
-- 100+ CPU hours for evolutionary searches
-- GPU access for LLM-based semantic analysis
-- Storage for simulation datasets and experimental logs
+- 200+ CPU hours for expanded evolutionary searches across 7 experiments
+- GPU access for LLM-based semantic analysis and neural meta-learning
+- High-memory systems for MTPP mathematical optimization
+- Storage for multi-domain simulation datasets and experimental logs
+- Cluster computing access for cross-domain parallelization
 
-**Validation Standards**:
-- Statistical power analysis (β = 0.8, α = 0.01)
-- Effect size reporting (Cohen's d)
-- Replication protocols for key findings
-- Open science practices (code/data sharing)
+**Enhanced Validation Standards**:
+- Statistical power analysis (β = 0.8, α = 0.01) with family-wise error correction
+- Effect size reporting (Cohen's d) and confidence intervals
+- Cross-validation protocols for each experiment
+- Replication protocols for key findings with independent datasets
+- Open science practices (code/data sharing) with reproducible environments
+- Mathematical verification for MTPP implementations
+- Human study pre-registration and ethical approval
 
 ---
 *This section enhanced using CS197 research methodology focusing on bit flip validation and rigorous experimental design*
+
+
+---
+*This section is being enhanced by The Research Company AI Agent*
