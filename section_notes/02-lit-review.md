@@ -4,7 +4,7 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **11 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, and cognitive systems.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **15 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, and cognitive systems.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
@@ -77,6 +77,30 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Key Findings**: Comprehensive survey showing forgetting as adaptive function across ML subfields; benefits include performance improvement, overfitting prevention, data privacy
 - **Relevance**: **Bit Flip** - forgetting viewed as adaptive function rather than detrimental flaw
 - **CS197 Insight**: Paradigm shift enabling strategic forgetting for enhanced learning and privacy protection
+
+### FSRS Algorithm: The New Standard (2025)
+- **Authors**: Jarrett Ye and Open Spaced Repetition Community
+- **Key Findings**: Machine learning-optimized algorithm achieving 30% reduction in review time vs SM-2; uses 19-21 parameters trained on hundreds of millions of reviews
+- **Relevance**: **Bit Flip** - replaces 37-year-old hand-crafted SM-2 with data-driven optimization
+- **CS197 Insight**: First successful paradigm shift proving ML can dramatically outperform psychological theory-based heuristics
+
+### Do Your Best and Get Enough Rest for Continual Learning (2025)
+- **Authors**: Hankyul Kang, Gregor Seifer, Donghyun Lee, Jongbin Ryu
+- **Key Findings**: View-batch model applying forgetting curve theory to neural networks; strategic rest periods improve continual learning more than continuous training
+- **Relevance**: **Bit Flip** - continuous training replaced by scheduled rest for optimal memory consolidation
+- **CS197 Insight**: Validates 140-year-old Ebbinghaus principles apply directly to modern neural networks
+
+### Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory (2025)
+- **Authors**: Mirac Suzgun, Mert Yuksekgonul, Federico Bianchi, Dan Jurafsky, James Zou
+- **Key Findings**: Persistent memory framework enabling >2× accuracy gains without parameter changes; Claude 3.5 Sonnet doubled performance on AIME math through accumulated insights
+- **Relevance**: **Bit Flip** - stateless query processing replaced by persistent, evolving memory systems
+- **CS197 Insight**: Demonstrates cumulative learning principles apply to language model inference
+
+### Revisiting Replay and Gradient Alignment for LLM Continual Pre-Training (2025)
+- **Authors**: Istabrak Abbes, Gopeshh Subbaraj, Matthew Riemer, et al.
+- **Key Findings**: Experience replay and gradient alignment enable stable continual learning in 100B+ token LLM training; small replay rates more valuable than model scaling
+- **Relevance**: **Bit Flip** - complete retraining replaced by strategic replay of previous examples
+- **CS197 Insight**: Spaced repetition principles scale from individual flashcards to massive language model training
 
 ## Major Research Gaps
 
@@ -156,7 +180,7 @@ This literature review reveals that **spaced repetition is not just an education
 5. **Personalized forgetting** (Adaptive Forgetting Curves) - individual differences via neural networks
 
 ### Research Velocity Acceleration
-The **14 validated bit flips** identified across 11 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to universal learning optimization (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **18 validated bit flips** identified across 15 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to universal learning optimization (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery.
