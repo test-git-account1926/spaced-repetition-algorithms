@@ -7,7 +7,7 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **25 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **30 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
@@ -165,6 +165,36 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Relevance**: **Bit Flip** - unified storage/retrieval representations replaced by optimized separate representations for storage fidelity and retrieval discriminability
 - **CS197 Insight**: Retrieval process is the primary limiting factor in memory performance, not storage capacity - directly supports spaced repetition's emphasis on retrieval practice
 
+### Unable to Forget: Proactive Interference Reveals Working Memory Limits (2025)
+- **Authors**: Chupei Wang (University of Virginia), Jiaqiu Vince Sun (New York University)
+- **Key Findings**: Introduces proactive interference paradigm from cognitive science; reveals universal log-linear decline in LLM retrieval accuracy as semantic interference accumulates
+- **Relevance**: **Bit Flip** - LLM retrieval difficulty determined by semantic interference rather than context length limitations
+- **CS197 Insight**: Fundamental working memory constraints in AI systems mirror human cognitive limitations, suggesting spaced repetition algorithms must account for semantic interference patterns
+
+### Knowledge in Superposition: Unveiling Lifelong Knowledge Editing Failures (2024)
+- **Authors**: Chenhui Hu, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao
+- **Key Findings**: Mathematical proof that knowledge superposition causes fundamental interference in lifelong editing; provides theoretical foundation for neural network memory limitations
+- **Relevance**: **Bit Flip** - knowledge representations thought independent are fundamentally interfering due to superposition effects
+- **CS197 Insight**: Knowledge superposition explains why current memory architectures fail for lifelong learning, supporting need for orthogonal representations in spaced repetition systems
+
+### PRIME: LLM Personalization with Cognitive Memory (2025)
+- **Authors**: Xinliang Frederick Zhang, Nick Beauchamp, Lu Wang
+- **Key Findings**: Integrates dual-memory model from cognitive science into LLM personalization; distinguishes episodic memory from semantic memory with personalized thinking capability
+- **Relevance**: **Bit Flip** - personalization requires cognitively-grounded dual-memory architecture rather than simple pattern matching
+- **CS197 Insight**: First unified theoretical framework for LLM personalization based on human memory models, directly applicable to personalized spaced repetition systems
+
+### TutorLLM: Knowledge Tracing + Retrieval-Augmented Generation (2025)
+- **Authors**: Zhaoxing Li, Vahid Yazdanpanah, Jindi Wang, Wen Gu, Lei Shi, Alexandra I. Cristea, Sarah Kiden, Sebastian Stein
+- **Key Findings**: Novel combination of Knowledge Tracing, RAG, and LLMs for personalized education; 10% improvement in user satisfaction, 5% increase in quiz scores
+- **Relevance**: **Bit Flip** - educational AI requires integrated knowledge tracing rather than general-purpose language models
+- **CS197 Insight**: Demonstrates measurable learning gains through AI integration, validating approach of combining multiple technologies for enhanced educational outcomes
+
+### Reflective Memory Management for Long-term Dialogue (2025)
+- **Authors**: Zhen Tan, Jun Yan, I-Hung Hsu, Rujun Han, Zifeng Wang, Long T. Le, Yiwen Song, Yanfei Chen, Hamid Palangi, George Lee, Anand Iyer, Tianlong Chen, Huan Liu, Chen-Yu Lee, Tomas Pfister
+- **Key Findings**: Reflective Memory Management integrates flexible memory granularity with adaptive retrieval mechanisms; enables sustained personalization through semantic conversation structure
+- **Relevance**: **Bit Flip** - memory systems need flexible, semantically-aware granularity rather than fixed structures
+- **CS197 Insight**: Advanced memory architectures for sustained personalization directly applicable to long-term learning systems and spaced repetition
+
 ## Major Research Gaps
 
 ### Gap 1: Semantic Interference Modeling
@@ -233,6 +263,30 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 **Opportunity**: New memory architectures (Memory3, Cognitive Weave, key-value brain models) provide frameworks for next-generation spaced repetition
 **Research Direction**: Develop spaced repetition algorithms that leverage explicit memory externalization, key-value separation for storage/retrieval optimization, and autonomous insight synthesis for personalized learning trajectories
 
+### Gap 12: Interference-Resistant Memory Systems
+**Current State**: Spaced repetition algorithms assume independent item scheduling without considering semantic interference effects
+**Problem**: Proactive interference from semantically similar items creates log-linear degradation in recall accuracy
+**Opportunity**: Cognitive science models of interference patterns can inform spacing strategies that minimize semantic conflicts
+**Research Direction**: Develop interference-aware scheduling algorithms that dynamically adjust spacing based on semantic similarity and knowledge superposition density
+
+### Gap 13: Lifelong Learning Architecture Limitations
+**Current State**: Current neural architectures suffer from knowledge superposition that makes lifelong learning mathematically impossible
+**Problem**: Knowledge editing and continual learning fail due to fundamental interference in parameter space
+**Opportunity**: Orthogonal memory representations and external knowledge storage can overcome superposition limitations
+**Research Direction**: Design lifelong spaced repetition systems using orthogonal knowledge representations that prevent interference during knowledge updates
+
+### Gap 14: Dual-Memory Personalization Systems
+**Current State**: Personalization relies on simple performance tracking without distinguishing memory types
+**Problem**: Effective personalization requires separate handling of episodic experiences and semantic knowledge
+**Opportunity**: Cognitive dual-memory models provide framework for sophisticated personalization
+**Research Direction**: Implement episodic-semantic memory separation in spaced repetition systems with personalized thinking capabilities for complex learning material
+
+### Gap 15: Integrated Educational AI Systems
+**Current State**: Spaced repetition algorithms operate independently from other educational AI technologies
+**Problem**: Isolated scheduling systems cannot adapt to real-time learning state assessment and content generation
+**Opportunity**: Integration with knowledge tracing, RAG, and LLMs shows measurable learning improvements
+**Research Direction**: Develop comprehensive educational AI frameworks that combine spaced repetition with knowledge tracing, content generation, and real-time learning state assessment
+
 ## Literature-Level Bit Flip Identification
 
 **Assumption Across Literature**: Spaced repetition algorithms are fundamentally different from general learning algorithms  
@@ -260,7 +314,9 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 
 **Emerging Meta-Flip**: **Cognitive science principles are universal optimization strategies** applicable across all learning systems, from clinical memory rehabilitation to billion-parameter language model training, with domain-specific adaptations enhancing rather than contradicting universal principles.
 
-**2025 Memory Architecture Revolution**: The convergence of explicit memory systems (Memory3), dynamic knowledge synthesis (Cognitive Weave), and key-value memory separation (Gershman et al.) represents a fundamental shift toward **biologically-inspired memory architectures** that mirror human memory hierarchies. These systems demonstrate that spaced repetition principles can be embedded within sophisticated memory frameworks that optimize both storage fidelity and retrieval discriminability while enabling autonomous knowledge synthesis - suggesting the next phase of spaced repetition research will integrate advanced memory architectures rather than operating on simple temporal scheduling alone.
+**2025 Memory Architecture Revolution**: The convergence of explicit memory systems (Memory3), dynamic knowledge synthesis (Cognitive Weave), key-value memory separation (Gershman et al.), interference-resistant architectures (Proactive Interference research), knowledge superposition understanding (Knowledge Superposition), and dual-memory personalization (PRIME) represents a fundamental shift toward **cognitively-grounded memory architectures** that mirror human memory hierarchies and constraints. These systems demonstrate that spaced repetition principles must be embedded within sophisticated memory frameworks that account for semantic interference, knowledge superposition effects, episodic-semantic distinctions, and adaptive retrieval mechanisms - suggesting the next phase of spaced repetition research will integrate advanced memory architectures with cognitive science principles rather than operating on simple temporal scheduling alone.
+
+**2025 Integration Breakthrough**: The successful combination of Knowledge Tracing with RAG and LLMs (TutorLLM) achieving measurable learning gains (5% quiz score improvement) validates that spaced repetition systems should be designed as components of comprehensive educational AI ecosystems rather than standalone algorithms. This integration paradigm, combined with interference-aware memory management and dual-memory personalization, points toward **unified cognitive AI systems** for learning optimization.
 
 ## Implications for AI Scientist Research
 
@@ -276,9 +332,14 @@ This literature review reveals that **spaced repetition is not just an education
 7. **Explicit memory architectures** (Memory3) - knowledge externalization enabling smaller models with better performance
 8. **Dynamic knowledge synthesis** (Cognitive Weave) - autonomous insight generation through spatio-temporal memory organization
 9. **Key-value memory separation** (Gershman et al.) - optimized representations for storage fidelity vs. retrieval discriminability
+10. **Interference-resistant scheduling** (Proactive Interference) - semantic similarity modeling to prevent memory conflicts
+11. **Knowledge superposition management** (Knowledge Superposition) - orthogonal representations for lifelong learning
+12. **Dual-memory personalization** (PRIME) - episodic-semantic distinction with personalized thinking capabilities
+13. **Integrated educational AI** (TutorLLM) - Knowledge Tracing + RAG + LLM integration achieving measurable learning gains
+14. **Reflective memory architectures** (RMM) - flexible granularity with adaptive retrieval for sustained personalization
 
 ### Research Velocity Acceleration
-The **28 validated bit flips** identified across 25 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding and dynamic memory architectures (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **34 validated bit flips** identified across 30 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding, interference-resistant memory architectures, and cognitively-grounded personalization systems (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery.
