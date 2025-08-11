@@ -6,7 +6,7 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **30 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **33 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
@@ -194,6 +194,24 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Relevance**: **Bit Flip** - memory systems need flexible, semantically-aware granularity rather than fixed structures
 - **CS197 Insight**: Advanced memory architectures for sustained personalization directly applicable to long-term learning systems and spaced repetition
 
+### Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory (2025)
+- **Authors**: Mirac Suzgun, Mert Yuksekgonul, Federico Bianchi, Dan Jurafsky, James Zou (Stanford University)
+- **Key Findings**: Enables persistent, evolving memory across LLM queries; Claude 3.5 Sonnet accuracy doubled on AIME exams; GPT-4o success rate increased from 10% to 99% on Game of 24
+- **Relevance**: **Bit Flip** - stateless inference replaced by persistent memory accumulation across problem-solving sessions
+- **CS197 Insight**: Demonstrates test-time learning without parameter updates through strategic knowledge retention, directly applicable to adaptive spaced repetition systems
+
+### FSRS: Free Spaced Repetition Scheduler (2024)
+- **Authors**: Jarrett Ye and Open Source Community  
+- **Key Findings**: Claims to be most accurate spaced repetition algorithm in world; uses DSR (Difficulty-Stability-Retrievability) model with 19 ML-optimized parameters; integrated into Anki serving millions of users
+- **Relevance**: **Bit Flip** - universal algorithmic parameters replaced by machine learning-based personalization from individual review history
+- **CS197 Insight**: Represents complete paradigm shift from rule-based to data-driven spaced repetition, achieving state-of-the-art performance through systematic parameter optimization
+
+### Overcoming Catastrophic Forgetting in Neural Networks (2025)
+- **Authors**: Brandon Shuen Yi Loke, Filippo Quadri, Gabriel Vivanco, Maximilian Casagrande, Saúl Fenollosa
+- **Key Findings**: Systematic evaluation of Elastic Weight Consolidation against L2 regularization and SGD on benchmarks; confirms EWC significantly reduces forgetting while slightly compromising learning efficiency
+- **Relevance**: **Bit Flip** - naive SGD training replaced by biological synaptic consolidation principles for continual learning
+- **CS197 Insight**: Validates biological inspiration for artificial neural networks, enabling lifelong learning applications of spaced repetition principles
+
 ## Major Research Gaps
 
 ### Gap 1: Semantic Interference Modeling
@@ -336,9 +354,12 @@ This literature review reveals that **spaced repetition is not just an education
 12. **Dual-memory personalization** (PRIME) - episodic-semantic distinction with personalized thinking capabilities
 13. **Integrated educational AI** (TutorLLM) - Knowledge Tracing + RAG + LLM integration achieving measurable learning gains
 14. **Reflective memory architectures** (RMM) - flexible granularity with adaptive retrieval for sustained personalization
+15. **Test-time adaptive memory** (Dynamic Cheatsheet) - persistent knowledge accumulation across problem-solving sessions
+16. **Data-driven parameter optimization** (FSRS) - machine learning personalization replacing universal algorithmic rules  
+17. **Biological consolidation principles** (EWC) - synaptic consolidation reducing catastrophic forgetting in continual learning
 
 ### Research Velocity Acceleration
-The **34 validated bit flips** identified across 30 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding, interference-resistant memory architectures, and cognitively-grounded personalization systems (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **37 validated bit flips** identified across 33 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding, interference-resistant memory architectures, and cognitively-grounded personalization systems (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery.
