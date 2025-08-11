@@ -1,4 +1,3 @@
-# Research Concept & Direction  
 
 ## Overview  
 I want to investigate how an AI scientist can autonomously discover, design, and evaluate new spaced repetition algorithms. The AI scientist will run experiments on both established methods and newly generated variations, aiming to optimize for long-term retention efficiency, low learner burden, and adaptability across domains.  
