@@ -3,11 +3,11 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **11 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, and cognitive systems.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **16 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
-**Major 2025 Breakthrough**: Recent work validates that spaced repetition principles can reduce large language model training costs by **95%** while maintaining performance (LFR Pedagogy), enable **few-shot personalization** through biological memory principles (KUL-KT), and function as **universal optimization strategies** across all learning domains - confirming the literature-level bit flip hypothesis.
+**Major 2025 Breakthrough**: Recent work validates that spaced repetition principles can reduce large language model training costs by **95%** while maintaining performance (LFR Pedagogy), enable **few-shot personalization** through biological memory principles (KUL-KT), enhance neural network training through strategic timing (Spaced KD), and function as **universal optimization strategies** across all learning domains - from clinical memory rehabilitation to large-scale AI training - confirming the literature-level bit flip hypothesis.
 
 ## Key Papers
 
@@ -77,6 +77,36 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Relevance**: **Bit Flip** - forgetting viewed as adaptive function rather than detrimental flaw
 - **CS197 Insight**: Paradigm shift enabling strategic forgetting for enhanced learning and privacy protection
 
+### Optimizing Retrieval-Augmented Generation of Medical Content for Spaced Repetition Learning (2025)
+- **Authors**: Jeremi I. Kaczmarek, Jakub Pokrywka, Krzysztof Biedalak, Grzegorz Kurzyp, Łukasz Grzybowski (SuperMemo World)
+- **Key Findings**: RAG system integration with spaced repetition for Polish medical education; demonstrates content quality amplifies spaced repetition effectiveness
+- **Relevance**: **Bit Flip** - spaced repetition effectiveness enhanced by content generation quality rather than being independent
+- **CS197 Insight**: Cross-domain application with expert validation creates scalable educational AI systems
+
+### Right Time to Learn: Promoting Generalization via Bio-inspired Spacing Effect in Knowledge Distillation (2025)
+- **Authors**: Guanglong Sun et al.
+- **Key Findings**: Strategic spacing in knowledge distillation improves generalization; 2.31-3.34% improvements through temporal scheduling
+- **Relevance**: **Bit Flip** - timing of knowledge transfer as important as content, opposing continuous distillation assumptions
+- **CS197 Insight**: Biological spacing effects scale to large neural network training with measurable optimization benefits
+
+### Task Scheduling & Forgetting in Multi-Task Reinforcement Learning (2025)
+- **Authors**: Marc Speckmann, Theresa Eimer (Leibniz University Hannover)
+- **Key Findings**: RL agents show human-like forgetting curves but require specialized scheduling due to asymmetrical task interactions
+- **Relevance**: **Bit Flip** - direct transfer of human learning methods fails despite similar forgetting patterns
+- **CS197 Insight**: Validates universal forgetting curves while highlighting need for domain-specific algorithm adaptation
+
+### Time-dependent consolidation mechanisms of durable memory in spaced learning (2025)
+- **Authors**: Dazhi Yin et al.
+- **Key Findings**: Neural evidence that cortical Default Mode Network integration, not hippocampal consolidation, drives spacing effect durability
+- **Relevance**: **Bit Flip** - cortical rather than hippocampal mechanisms underlie long-term spacing benefits
+- **CS197 Insight**: Fundamental revision of neural models suggests distributed memory systems for algorithm design
+
+### Algorithmic Spaced Retrieval Enhances Long-Term Memory in Alzheimer Disease (2024)
+- **Authors**: Amy M Smith, Andrew E Budson et al. (VA Boston Healthcare System)
+- **Key Findings**: ML-optimized mobile app enables personalized spaced retrieval for MCI patients; clinical translation successful
+- **Relevance**: **Bit Flip** - algorithmic optimization enables clinical interventions previously requiring manual administration
+- **CS197 Insight**: Demonstrates therapeutic potential and validates spaced repetition algorithms for cognitively impaired populations
+
 ## Major Research Gaps
 
 ### Gap 1: Semantic Interference Modeling
@@ -121,6 +151,24 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 **Opportunity**: KUL-KT shows Hebbian memory with time-decay enables few-shot adaptation
 **Research Direction**: Integrate biological memory principles for efficient, adaptive learning systems
 
+### Gap 8: Content-Aware Memory Systems
+**Current State**: Spaced repetition treats content generation and scheduling as independent processes
+**Problem**: Content quality directly impacts memory consolidation effectiveness
+**Opportunity**: RAG integration demonstrates synergistic effects between content generation and spacing
+**Research Direction**: Develop content-aware scheduling algorithms that adapt to semantic relationships and generation quality
+
+### Gap 9: Clinical Translation and Accessibility
+**Current State**: Laboratory validation with limited real-world deployment
+**Problem**: Spaced repetition research hasn't translated to accessible therapeutic interventions
+**Opportunity**: Mobile ML-optimized systems show clinical efficacy for memory rehabilitation
+**Research Direction**: Scalable clinical applications for cognitive impairment and specialized professional training
+
+### Gap 10: Neural Network Training Optimization
+**Current State**: Fixed training schedules and continuous knowledge distillation
+**Problem**: Temporal dynamics in neural network learning underexplored
+**Opportunity**: Spaced knowledge distillation shows 2-3% improvements through strategic timing
+**Research Direction**: Bio-inspired temporal optimization for neural network training efficiency
+
 ## Literature-Level Bit Flip Identification
 
 **Assumption Across Literature**: Spaced repetition algorithms are fundamentally different from general learning algorithms  
@@ -140,8 +188,13 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Cross-domain ML applications**: Forgetting survey demonstrates benefits across ML subfields
 - **Interval vs. item optimization**: DRL-SRS shows timing optimization more critical than item selection
 - **Neural network personalization**: Adaptive forgetting curves enable individual learner modeling
+- **Content-aware systems**: RAG integration amplifies spaced repetition effectiveness
+- **Neural network training**: Spaced knowledge distillation improves generalization 2-3%
+- **Clinical applications**: ML-optimized spaced retrieval successful for Alzheimer's patients
+- **Neuroscience validation**: DMN cortical integration drives spacing effect durability
+- **RL domain adaptation**: Human-like forgetting confirmed but requires specialized algorithms
 
-**Emerging Meta-Flip**: **Cognitive science principles are universal optimization strategies** applicable across all learning systems, from human education to large-scale AI training.
+**Emerging Meta-Flip**: **Cognitive science principles are universal optimization strategies** applicable across all learning systems, from clinical memory rehabilitation to billion-parameter language model training, with domain-specific adaptations enhancing rather than contradicting universal principles.
 
 ## Implications for AI Scientist Research
 
@@ -155,7 +208,7 @@ This literature review reveals that **spaced repetition is not just an education
 5. **Personalized forgetting** (Adaptive Forgetting Curves) - individual differences via neural networks
 
 ### Research Velocity Acceleration
-The **14 validated bit flips** identified across 11 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to universal learning optimization (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **19 validated bit flips** identified across 16 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to universal learning optimization with clinical translation (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery.
