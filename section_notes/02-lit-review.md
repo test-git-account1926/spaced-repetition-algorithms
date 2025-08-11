@@ -5,7 +5,7 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **22 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **25 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, and clinical applications.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
@@ -145,6 +145,24 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - **Relevance**: **Bit Flip** - decontextualized review replaced by context-aware insight retrieval for metacognitive enhancement
 - **CS197 Insight**: Shifts focus from isolated flashcard review to integrated learning experiences that leverage personal learning history
 
+### Memory3: Language Modeling with Explicit Memory (2024)
+- **Authors**: Hongkang Yang, Zehao Lin, Wenjin Wang, Hao Wu, et al.
+- **Key Findings**: Introduces explicit memory as third form of memory in LLMs (beyond implicit parameters and working memory); 2.4B model outperforms larger models and RAG systems
+- **Relevance**: **Bit Flip** - knowledge storage expanded beyond parameters vs. RAG to include explicit external memory that's cheaper and more effective
+- **CS197 Insight**: Mirrors human memory hierarchy, enabling proportional cost reductions in training/inference based on knowledge externalization ratio
+
+### Cognitive Weave: Spatio-Temporal Resonance Graph (2025)
+- **Authors**: Akash Vishwakarma, Hojin Lee, et al. 
+- **Key Findings**: Multi-layered memory architecture with semantically rich insight particles (IPs) and autonomous cognitive refinement; 34% improvement in task completion rates
+- **Relevance**: **Bit Flip** - memory systems transformed from passive storage to dynamic knowledge synthesis engines with temporal-spatial organization
+- **CS197 Insight**: Autonomous higher-level knowledge generation through insight aggregates represents fundamental shift toward intelligent memory systems
+
+### Key-value Memory in the Brain (2025)
+- **Authors**: Samuel J. Gershman, Ila Fiete, Kazuki Irie
+- **Key Findings**: Proposes key-value memory architecture distinguishing storage (values) from retrieval (keys) representations; bridges neuroscience with ML memory systems
+- **Relevance**: **Bit Flip** - unified storage/retrieval representations replaced by optimized separate representations for storage fidelity and retrieval discriminability
+- **CS197 Insight**: Retrieval process is the primary limiting factor in memory performance, not storage capacity - directly supports spaced repetition's emphasis on retrieval practice
+
 ## Major Research Gaps
 
 ### Gap 1: Semantic Interference Modeling
@@ -207,6 +225,12 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 **Opportunity**: Spaced knowledge distillation shows 2-3% improvements through strategic timing
 **Research Direction**: Bio-inspired temporal optimization for neural network training efficiency
 
+### Gap 11: Memory Architecture Integration
+**Current State**: Spaced repetition algorithms operate on simple temporal scheduling without advanced memory architectures
+**Problem**: Missing integration of key-value memory separation, explicit memory systems, and dynamic knowledge synthesis
+**Opportunity**: New memory architectures (Memory3, Cognitive Weave, key-value brain models) provide frameworks for next-generation spaced repetition
+**Research Direction**: Develop spaced repetition algorithms that leverage explicit memory externalization, key-value separation for storage/retrieval optimization, and autonomous insight synthesis for personalized learning trajectories
+
 ## Literature-Level Bit Flip Identification
 
 **Assumption Across Literature**: Spaced repetition algorithms are fundamentally different from general learning algorithms  
@@ -234,6 +258,8 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 
 **Emerging Meta-Flip**: **Cognitive science principles are universal optimization strategies** applicable across all learning systems, from clinical memory rehabilitation to billion-parameter language model training, with domain-specific adaptations enhancing rather than contradicting universal principles.
 
+**2025 Memory Architecture Revolution**: The convergence of explicit memory systems (Memory3), dynamic knowledge synthesis (Cognitive Weave), and key-value memory separation (Gershman et al.) represents a fundamental shift toward **biologically-inspired memory architectures** that mirror human memory hierarchies. These systems demonstrate that spaced repetition principles can be embedded within sophisticated memory frameworks that optimize both storage fidelity and retrieval discriminability while enabling autonomous knowledge synthesis - suggesting the next phase of spaced repetition research will integrate advanced memory architectures rather than operating on simple temporal scheduling alone.
+
 ## Implications for AI Scientist Research
 
 This literature review reveals that **spaced repetition is not just an educational technique but a fundamental learning optimization principle** with applications ranging from individual vocabulary learning to billion-parameter language model training. The evidence supports our research concept of an AI scientist autonomously discovering spaced repetition algorithms through several key insights:
@@ -245,9 +271,12 @@ This literature review reveals that **spaced repetition is not just an education
 4. **Interval optimization** (DRL-SRS) - timing more critical than item selection
 5. **Personalized forgetting** (Adaptive Forgetting Curves) - individual differences via neural networks
 6. **Context-triggered learning** (Irec) - dynamic knowledge graphs with just-in-time adaptive interventions
+7. **Explicit memory architectures** (Memory3) - knowledge externalization enabling smaller models with better performance
+8. **Dynamic knowledge synthesis** (Cognitive Weave) - autonomous insight generation through spatio-temporal memory organization
+9. **Key-value memory separation** (Gershman et al.) - optimized representations for storage fidelity vs. retrieval discriminability
 
 ### Research Velocity Acceleration
-The **25 validated bit flips** identified across 22 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **28 validated bit flips** identified across 25 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding and dynamic memory architectures (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery.
