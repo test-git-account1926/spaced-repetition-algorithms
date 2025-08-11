@@ -1,5 +1,3 @@
-# Literature Review
-
 ## Summary
 
 The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This review identifies **three major evolutionary phases** and reveals critical **bit flips** that could drive future algorithmic innovation.
