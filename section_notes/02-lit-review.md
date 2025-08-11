@@ -1,3 +1,5 @@
+# Literature Review
+
 ## Summary
 
 The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This review identifies **three major evolutionary phases** and reveals critical **bit flips** that could drive future algorithmic innovation.
@@ -88,6 +90,10 @@ The spaced repetition literature spans over 140 years, from Ebbinghaus's foundat
 - LLMs can be enhanced with memory mechanisms (Wu et al. 2023)
 
 **Impact of Flip**: Would reframe spaced repetition from niche educational tool to fundamental principle for any learning system, opening massive new research directions and applications.
+
+---
+*This section is being enhanced by The Research Company AI Agent*
+
 
 ---
 *This section is being enhanced by The Research Company AI Agent*
