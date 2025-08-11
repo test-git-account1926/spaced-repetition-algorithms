@@ -554,5 +554,165 @@ Following systems research standards:
 *Enhanced using CS197 research methodology focusing on literature-level bit flip validation and rigorous experimental design*
 
 
+### Experiment 13: Hierarchical Knowledge Structure Discovery
+
+**Bit Flip Tested**: Spaced repetition treats all knowledge items independently vs AI can discover and exploit hierarchical knowledge structures
+
+- **Objective**: Investigate whether AI can discover algorithms that leverage prerequisite relationships, conceptual hierarchies, and knowledge dependencies to optimize learning sequences and scheduling.
+
+- **Hypothesis**: AI-discovered hierarchical algorithms will achieve ≥14% retention improvement by optimizing learning sequences based on discovered knowledge dependencies and prerequisite structures.
+
+- **Independent Variables**:
+  - Knowledge graph construction method (LLM-based dependency extraction, co-occurrence analysis, expert annotation)
+  - Hierarchy utilization strategy (prerequisite-first scheduling, difficulty-based ordering, semantic clustering)
+  - Dependency strength modeling (binary prerequisites, weighted dependencies, fuzzy relationships)
+
+- **Dependent Variables**:
+  - Knowledge structure discovery accuracy (compared to expert-annotated hierarchies)
+  - Learning sequence optimization effectiveness
+  - Prerequisite violation impact on retention
+  - Transfer learning improvement across related concepts
+
+- **Methodology**:
+  1. **Knowledge Graph Construction**: Build dependency graphs using multiple approaches (LLM analysis, learning analytics, expert knowledge)
+  2. **Hierarchy-Aware Evolution**: Evolve algorithms that consider prerequisite relationships in scheduling decisions
+  3. **Sequence Optimization**: Test different strategies for ordering learning based on discovered hierarchies
+  4. **Violation Analysis**: Measure impact of teaching concepts before prerequisites
+  5. **Transfer Validation**: Test improved learning of dependent concepts
+
+- **Success Metrics**:
+  - Primary: ≥14% retention improvement with statistical significance (p<0.01)
+  - Secondary: Hierarchy discovery accuracy correlation with expert knowledge graphs (r>0.75)
+  - Tertiary: Reduction in prerequisite violation negative impacts
+
+- **Validity Threats & Mitigations**:
+  - **Construct**: Hierarchy discovery may be domain-specific → Test across multiple knowledge domains
+  - **Internal**: Prerequisite relationships may be circular → Implement cycle detection and resolution
+  - **External**: Expert hierarchies may be biased → Use multiple expert sources and empirical validation
+
+### Experiment 14: Attention-Mechanism Inspired Scheduling Discovery
+
+**Bit Flip Tested**: Spaced repetition uses fixed attention allocation vs AI can discover dynamic attention-based scheduling inspired by transformer architectures
+
+- **Objective**: Test whether AI can discover algorithms that dynamically allocate "attention" to different items based on learned patterns, similar to transformer attention mechanisms but for temporal scheduling.
+
+- **Hypothesis**: AI-discovered attention-based algorithms will achieve ≥13% retention improvement by dynamically focusing computational and scheduling resources on items that benefit most from targeted attention.
+
+- **Independent Variables**:
+  - Attention mechanism type (self-attention between items, cross-attention with learner state, multi-head attention)
+  - Attention computation basis (content similarity, difficulty relationships, temporal patterns)
+  - Resource allocation strategy (attention-weighted scheduling, priority queues, dynamic batching)
+
+- **Dependent Variables**:
+  - Attention weight distribution patterns over time
+  - Scheduling resource allocation efficiency
+  - Item-specific attention benefit correlation
+  - Computational overhead of attention mechanisms
+
+- **Methodology**:
+  1. **Attention Architecture Design**: Implement transformer-inspired attention mechanisms for spaced repetition
+  2. **Dynamic Scheduling**: Evolve algorithms that use attention weights to prioritize scheduling decisions
+  3. **Multi-Head Exploration**: Test different attention "heads" focusing on different aspects (difficulty, similarity, temporal)
+  4. **Resource Optimization**: Balance attention computation costs with scheduling benefits
+  5. **Pattern Analysis**: Analyze learned attention patterns for interpretability
+
+- **Success Metrics**:
+  - Primary: ≥13% retention improvement with attention-based scheduling
+  - Secondary: Attention pattern interpretability and consistency with learning theory
+  - Tertiary: Computational efficiency compared to brute-force optimization
+
+### Experiment 15: Lifelong Learning Algorithm Discovery
+
+**Bit Flip Tested**: Spaced repetition algorithms assume static learning contexts vs AI can discover algorithms optimized for lifelong, continual learning scenarios
+
+- **Objective**: Investigate whether AI can discover algorithms that prevent catastrophic forgetting while enabling efficient acquisition of new knowledge in continual learning scenarios.
+
+- **Hypothesis**: AI-discovered lifelong learning algorithms will achieve ≥16% retention improvement on accumulated knowledge while maintaining ≥12% efficiency for new knowledge acquisition compared to naive sequential learning.
+
+- **Independent Variables**:
+  - Continual learning strategy (elastic weight consolidation, progressive networks, memory replay)
+  - Knowledge preservation mechanism (importance weighting, rehearsal scheduling, architectural growth)
+  - New knowledge integration approach (incremental learning, domain adaptation, meta-learning)
+
+- **Dependent Variables**:
+  - Backward transfer (retention of old knowledge when learning new)
+  - Forward transfer (benefit of old knowledge for new learning)
+  - Catastrophic forgetting resistance metrics
+  - Computational scaling with accumulated knowledge
+
+- **Methodology**:
+  1. **Continual Learning Simulation**: Create scenarios with sequential knowledge domains and concept drift
+  2. **Forgetting Resistance Evolution**: Evolve algorithms that maintain old knowledge while learning new
+  3. **Transfer Optimization**: Test algorithms' ability to leverage previous learning for new domains
+  4. **Scalability Testing**: Measure performance degradation as accumulated knowledge grows
+  5. **Comparison Studies**: Benchmark against established continual learning approaches
+
+- **Success Metrics**:
+  - Primary: ≥16% retention improvement on old knowledge during new learning
+  - Secondary: ≥12% efficiency gain for new knowledge acquisition
+  - Tertiary: Scalable performance with growing knowledge base
+
+### Experiment 16: Emergent Curriculum Learning Discovery
+
+**Bit Flip Tested**: Learning curricula require expert design vs AI can discover emergent curricula that self-organize based on learning dynamics
+
+- **Objective**: Test whether AI can discover algorithms that generate adaptive curricula, automatically sequencing learning content based on emergent patterns in learner performance and knowledge relationships.
+
+- **Hypothesis**: AI-discovered curriculum learning algorithms will achieve ≥15% learning efficiency improvement by automatically discovering optimal learning sequences that adapt to individual learner progress and knowledge state.
+
+- **Independent Variables**:
+  - Curriculum generation method (difficulty progression, prerequisite discovery, performance-based sequencing)
+  - Adaptation mechanism (individual vs population-based, real-time vs batch updates)
+  - Sequence optimization objective (efficiency, retention, engagement, mastery)
+
+- **Dependent Variables**:
+  - Learning sequence optimality measures
+  - Adaptation responsiveness to learner performance changes
+  - Curriculum stability vs flexibility trade-offs
+  - Individual vs universal curriculum effectiveness
+
+- **Methodology**:
+  1. **Curriculum Space Definition**: Define space of possible learning sequences and transitions
+  2. **Emergent Sequencing**: Evolve algorithms that discover optimal content ordering through learner interaction
+  3. **Adaptive Mechanisms**: Test different approaches for curriculum modification based on performance feedback
+  4. **Individual vs Population**: Compare personalized vs universal curriculum discovery
+  5. **Theoretical Analysis**: Identify principles underlying discovered curricula
+
+- **Success Metrics**:
+  - Primary: ≥15% learning efficiency improvement over random/expert curricula
+  - Secondary: Curriculum adaptation speed and stability
+  - Tertiary: Theoretical interpretability of discovered sequencing principles
+
+### Experiment 17: Neuroplasticity-Inspired Algorithm Discovery
+
+**Bit Flip Tested**: Spaced repetition uses static learning models vs AI can discover algorithms that model and exploit neuroplasticity principles for optimal scheduling
+
+- **Objective**: Investigate whether AI can discover algorithms that incorporate models of synaptic plasticity, memory consolidation, and neural adaptation to optimize spaced repetition scheduling.
+
+- **Hypothesis**: AI-discovered neuroplasticity-inspired algorithms will achieve ≥17% retention improvement by modeling synaptic strength changes, consolidation processes, and neural adaptation mechanisms.
+
+- **Independent Variables**:
+  - Neuroplasticity model type (Hebbian learning, spike-timing dependent plasticity, homeostatic scaling)
+  - Consolidation mechanism (sleep-dependent, protein synthesis, synaptic tagging)
+  - Neural adaptation modeling (metaplasticity, intrinsic excitability, structural plasticity)
+
+- **Dependent Variables**:
+  - Synaptic strength prediction accuracy
+  - Memory consolidation timing optimization
+  - Neural adaptation benefit quantification
+  - Biological plausibility of discovered mechanisms
+
+- **Methodology**:
+  1. **Neuroplasticity Modeling**: Implement computational models of synaptic and neural adaptation
+  2. **Bio-Inspired Evolution**: Evolve algorithms incorporating realistic neural learning mechanisms
+  3. **Consolidation Optimization**: Test scheduling strategies based on memory consolidation cycles
+  4. **Validation Studies**: Compare discovered principles with neuroscience literature
+  5. **Mechanistic Analysis**: Identify specific neural mechanisms exploited by successful algorithms
+
+- **Success Metrics**:
+  - Primary: ≥17% retention improvement with neuroplasticity-inspired scheduling
+  - Secondary: Biological plausibility validation through neuroscience literature alignment
+  - Tertiary: Novel insights into learning optimization from neural mechanism modeling
+
 ---
-*This section is being enhanced by The Research Company AI Agent*
+*Section enhanced with 5 additional rigorous experiments following CS197 methodology focusing on hierarchical knowledge, attention mechanisms, lifelong learning, curriculum discovery, and neuroplasticity*
