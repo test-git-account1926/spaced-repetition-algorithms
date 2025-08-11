@@ -206,5 +206,222 @@ This experimental program tests the **core bit flip**: that AI agents can autono
 *This section enhanced using CS197 research methodology focusing on bit flip validation and rigorous experimental design*
 
 
+## Additional Rigorous Experiments
+
+### Experiment 5: Cross-Domain Transfer Learning Validation
+
+**Bit Flip Tested**: AI-discovered algorithms are domain-specific optimizations
+
+- **Objective**: Test whether AI-discovered spaced repetition algorithms demonstrate transfer learning capabilities across diverse content domains, challenging the assumption that optimal algorithms must be domain-specific.
+
+- **Hypothesis**: AI-discovered algorithms will maintain ≥12% performance advantage when transferred across domains (language learning → mathematics → medical terminology), demonstrating domain-general optimization principles.
+
+- **Independent Variables**:
+  - Source domain (where algorithm was discovered)
+  - Target domain (where algorithm is applied)
+  - Content similarity metrics (semantic, structural, procedural)
+  - Transfer learning method (direct transfer, fine-tuning, hybrid adaptation)
+
+- **Dependent Variables**:
+  - Cross-domain retention transfer efficiency
+  - Performance degradation across domain boundaries
+  - Algorithm adaptation speed in new domains
+  - Universal vs domain-specific feature identification
+
+- **Methodology**:
+  1. **Domain Construction**: Create 6 distinct content domains:
+     - Linguistic: Foreign language vocabulary (Spanish, Mandarin)
+     - Mathematical: Algebra, calculus formulas and procedures
+     - Medical: Anatomy, pharmacology terminology
+     - Historical: Dates, events, causal relationships
+     - Scientific: Chemistry formulas, physics principles
+     - Procedural: Programming algorithms, cooking techniques
+  2. **Discovery Phase**: Run AI discovery on each domain independently
+  3. **Transfer Testing**: Apply each domain's best algorithm to all other domains
+  4. **Adaptation Analysis**: Measure performance with/without domain adaptation
+  5. **Feature Analysis**: Extract transferable vs domain-specific algorithmic components
+
+- **Expected Outcomes**:
+  - 60-80% of algorithmic improvements transfer across domains
+  - Identification of universal memory optimization principles
+  - Discovery of domain-specific vs general-purpose algorithm components
+
+- **Success Metrics**:
+  - Primary: ≥12% retained performance advantage in cross-domain transfer
+  - Secondary: Identification of 3-5 universal algorithmic principles
+  - Tertiary: Computational efficiency of transfer learning process
+
+- **Validity Threats & Mitigations**:
+  - **Internal**: Domain construction bias → Expert validation of domain authenticity
+  - **External**: Limited domain coverage → Include both procedural and declarative knowledge
+  - **Construct**: Transfer measurement artifacts → Multiple independent transfer metrics
+
+### Experiment 6: Adversarial Robustness Testing
+
+**Bit Flip Tested**: AI-discovered algorithms are robust optimizations rather than exploitative hacks
+
+- **Objective**: Validate the robustness of AI-discovered algorithms against adversarial conditions, noisy learner data, and edge case scenarios to ensure they represent genuine improvements rather than simulation artifacts.
+
+- **Hypothesis**: AI-discovered algorithms will maintain ≥7% performance advantage under adversarial conditions (noisy feedback, irregular learning patterns, data corruption) compared to baseline methods.
+
+- **Independent Variables**:
+  - Adversarial condition type (noise injection, pattern disruption, data corruption)
+  - Adversarial strength (mild, moderate, severe perturbations)
+  - Learner behavior patterns (irregular timing, inconsistent effort, false responses)
+  - Environmental factors (device changes, interface modifications, interruptions)
+
+- **Dependent Variables**:
+  - Algorithm performance degradation under adversarial conditions
+  - Robustness coefficients across perturbation types
+  - Recovery speed after adversarial exposure
+  - Algorithmic stability metrics
+
+- **Methodology**:
+  1. **Adversarial Scenario Design**:
+     - **Noise Injection**: 5-30% random incorrect responses
+     - **Timing Disruption**: Irregular review schedules, missed sessions
+     - **Data Corruption**: Partial algorithm state corruption
+     - **Interface Changes**: Modified difficulty scaling, response options
+     - **Behavioral Anomalies**: Sudden performance drops, learning plateaus
+  2. **Robustness Testing Protocol**:
+     - Baseline establishment under ideal conditions
+     - Progressive adversarial condition introduction
+     - Performance monitoring across 90-day periods
+     - Recovery testing after adversarial removal
+  3. **Comparative Analysis**: Test both AI-discovered and human-designed algorithms
+  4. **Statistical Validation**: Bootstrap confidence intervals, robustness significance testing
+
+- **Expected Outcomes**:
+  - AI algorithms show superior robustness in 4-6 adversarial scenarios
+  - Identification of algorithmic resilience factors
+  - Discovery of failure modes and mitigation strategies
+
+- **Success Metrics**:
+  - Primary: ≥7% maintained advantage under moderate adversarial conditions
+  - Secondary: Faster recovery speed (≤50% of baseline recovery time)
+  - Tertiary: Interpretable robustness mechanisms
+
+### Experiment 7: Multi-Modal Learning Integration
+
+**Bit Flip Tested**: Spaced repetition optimization is primarily text-based and unimodal
+
+- **Objective**: Test whether AI agents can discover spaced repetition algorithms that optimize across multiple learning modalities (visual, auditory, kinesthetic) simultaneously, challenging unimodal optimization assumptions.
+
+- **Hypothesis**: AI-discovered multi-modal algorithms will achieve ≥18% retention improvement over single-modality algorithms by optimizing scheduling based on modality-specific forgetting curves and cross-modal reinforcement effects.
+
+- **Independent Variables**:
+  - Learning modality combinations (visual-auditory, visual-kinesthetic, tri-modal)
+  - Cross-modal reinforcement timing (simultaneous, sequential, distributed)
+  - Modality-specific difficulty weightings
+  - Individual modality preferences and strengths
+
+- **Dependent Variables**:
+  - Multi-modal retention efficiency
+  - Cross-modal interference/facilitation effects
+  - Modality-specific algorithm parameters
+  - Individual difference accommodation
+
+- **Methodology**:
+  1. **Multi-Modal Content Creation**:
+     - Visual: Diagrams, charts, spatial relationships
+     - Auditory: Pronunciation, music, rhythm patterns
+     - Kinesthetic: Gesture-based learning, physical manipulation
+  2. **Cross-Modal Simulation**: Model different forgetting curves per modality
+  3. **AI Discovery Enhancement**: Extend evolutionary algorithms with modality-aware operators
+  4. **Integration Testing**: Validate cross-modal reinforcement effects
+
+- **Expected Outcomes**:
+  - Discovery of optimal multi-modal scheduling patterns
+  - Identification of cross-modal memory consolidation principles
+  - Individual modality strength adaptation strategies
+
+- **Success Metrics**:
+  - Primary: ≥18% multi-modal retention improvement
+  - Secondary: Cross-modal facilitation effect measurement
+  - Tertiary: Computational tractability of multi-modal algorithms
+
+### Experiment 8: Real-Time Adaptation and Feedback Loops
+
+**Bit Flip Tested**: Spaced repetition algorithms benefit from batch optimization rather than real-time adaptation
+
+- **Objective**: Investigate whether AI-discovered algorithms can implement effective real-time adaptation mechanisms that continuously optimize scheduling based on immediate performance feedback and contextual factors.
+
+- **Hypothesis**: AI-discovered real-time adaptive algorithms will achieve ≥13% retention improvement over batch-optimized algorithms through continuous learning and immediate scheduling adjustments.
+
+- **Independent Variables**:
+  - Adaptation frequency (per-item, per-session, daily, weekly)
+  - Feedback signal types (accuracy, confidence, response time, neural feedback)
+  - Contextual factors (time of day, device, location, mood)
+  - Adaptation learning rate and stability constraints
+
+- **Dependent Variables**:
+  - Real-time optimization effectiveness
+  - Adaptation stability and convergence
+  - Computational overhead of continuous adaptation
+  - User experience metrics (perceived difficulty, engagement)
+
+- **Methodology**:
+  1. **Real-Time Infrastructure**: Implement streaming optimization framework
+  2. **Contextual Data Collection**: Monitor environmental and physiological factors
+  3. **Online Learning Integration**: Deploy reinforcement learning for continuous adaptation
+  4. **Stability Analysis**: Monitor adaptation oscillations and convergence
+
+- **Expected Outcomes**:
+  - Discovery of effective real-time adaptation strategies
+  - Identification of critical feedback signals for optimization
+  - Balance between adaptation responsiveness and stability
+
+- **Success Metrics**:
+  - Primary: ≥13% retention improvement with real-time adaptation
+  - Secondary: System stability (low oscillation variance)
+  - Tertiary: Acceptable computational overhead (<10ms adaptation time)
+
+## Enhanced Statistical Framework
+
+### Power Analysis and Sample Size Calculations
+
+**Statistical Requirements for Each Experiment**:
+- **Effect Size Detection**: Cohen's d ≥ 0.5 (medium effect)
+- **Statistical Power**: β = 0.8 (80% power)
+- **Significance Level**: α = 0.01 (adjusted for multiple comparisons)
+- **Sample Size**: n ≥ 64 per condition (calculated for paired t-tests)
+
+### Multiple Comparisons Correction
+
+**Bonferroni Adjustment**: With 8 primary hypotheses, adjusted α = 0.00125
+**False Discovery Rate**: Benjamini-Hochberg procedure for secondary analyses
+**Family-Wise Error Control**: Holm-Bonferroni for related experiment clusters
+
+### Replication Protocol
+
+**Internal Replication**: Each experiment run with 3 independent seeds
+**Cross-Validation**: 5-fold validation for all machine learning components
+**Reproducibility**: Docker containers and version-controlled analysis code
+**Open Science**: Pre-registered analysis plans and public data repositories
+
+## Risk Assessment and Mitigation Matrix
+
+### Technical Risks
+- **Computational Complexity**: Risk level HIGH
+  - *Mitigation*: Distributed computing, algorithm efficiency constraints
+- **Simulation Validity**: Risk level MEDIUM
+  - *Mitigation*: Multiple validation studies, expert review panels
+- **Statistical Power**: Risk level MEDIUM
+  - *Mitigation*: Conservative power analysis, adaptive sample sizes
+
+### Scientific Risks
+- **Publication Bias**: Risk level MEDIUM
+  - *Mitigation*: Pre-registration, negative result reporting
+- **Overfitting to Metrics**: Risk level HIGH
+  - *Mitigation*: Multiple independent evaluation metrics, holdout validation
+- **Generalizability**: Risk level MEDIUM
+  - *Mitigation*: Diverse content domains, cross-cultural validation
+
+### Practical Risks
+- **Timeline Overrun**: Risk level HIGH
+  - *Mitigation*: Phased implementation, minimum viable experiment versions
+- **Resource Constraints**: Risk level MEDIUM
+  - *Mitigation*: Cloud computing partnerships, efficient algorithm design
+
 ---
-*This section is being enhanced by The Research Company AI Agent*
+*This section enhanced using CS197 research methodology focusing on bit flip validation, rigorous experimental design, and comprehensive statistical frameworks*
