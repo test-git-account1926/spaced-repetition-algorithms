@@ -8,7 +8,7 @@
 
 ## Summary
 
-The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **35 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, clinical applications, and emerging areas including conversational learning, real-time adaptation, and control-theoretic optimization.
+The spaced repetition literature spans over 140 years, from Ebbinghaus's foundational forgetting curve research (1885) to modern AI applications (2025). This comprehensive review of **42 key papers** identifies **three major evolutionary phases** and reveals critical **bit flips** driving algorithmic innovation across education, AI training, cognitive systems, clinical applications, and emerging areas including conversational learning, real-time adaptation, control-theoretic optimization, and cognitively-grounded memory architectures.
 
 **Phase 1: Foundational Psychology (1885-1985)** established exponential forgetting curves and the spacing effect. **Phase 2: Algorithmic Implementation (1985-2017)** developed practical systems like SuperMemo, progressing from simple E-Factors to sophisticated two-component memory models with mathematical optimization frameworks. **Phase 3: Universal Application (2017-2025)** demonstrates spaced repetition principles apply across all learning systems, from individual education to billion-parameter language models.
 
@@ -403,9 +403,13 @@ This literature review reveals that **spaced repetition is not just an education
 17. **Real-time pattern adaptation** (Cuff-KT) - tuning-free controller-generator architecture achieving 10% AUC improvements for dynamic learner states
 18. **Control-theoretic optimization** (CtrKT) - systematic mathematical framework for teaching optimization using engineering control principles
 19. **Comprehensive behavioral modeling** (Enhanced Learning Behaviors KT) - multi-factor performance integration including difficulty, timing, hints, and forgetting patterns
+20. **Low-resource hierarchical knowledge tracing** (KT²) - Hidden Markov Tree Models leveraging hierarchical knowledge structures for sparse data settings
+21. **Cognitive memory architecture** (CAIM) - three-module framework with Memory Controller, Memory Retrieval, and Post-Thinking for long-term interaction
+22. **Formal optimization with scalability** (Stochastic Shortest Path SR) - mathematical optimality guarantees with 12.6% improvement validated at massive scale (220M user logs)
+23. **Comprehensive cognitive memory hierarchies** (Cognitive Memory LLMs) - systematic sensory, short-term, and long-term memory implementation across multiple strategies
 
 ### Research Velocity Acceleration
-The **42 validated bit flips** identified across 38 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding, interference-resistant memory architectures, real-time adaptive systems, and cognitively-grounded personalization systems (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
+The **46 validated bit flips** identified across 42 papers provide a structured foundation for the AI scientist to build upon, ensuring experiments target fundamental assumptions rather than incremental improvements. The progression from simple temporal spacing (1885) to context-aware semantic understanding, interference-resistant memory architectures, real-time adaptive systems, cognitively-grounded personalization systems, and formal optimization with scalable deployment (2025) demonstrates clear evolutionary trajectories the AI scientist can explore.
 
 ### Methodological Validation  
 The CS197 bit flip methodology proves highly effective for identifying transformative research directions. Every major advancement in spaced repetition challenged a fundamental assumption, validating our approach for algorithmic discovery. The newly identified research areas (conversational learning, real-time adaptation, control-theoretic optimization, comprehensive behavioral modeling, semantic exercise recommendation, collaborative iterative architectures, dynamic programming optimization, and rigorous statistical interpretability) represent frontier opportunities for AI scientist exploration.
@@ -432,6 +436,30 @@ Recent 2025 research reveals sophisticated architectural innovations beyond trad
 - **Relevance**: **Bit Flip** - advanced statistical methods can maintain interpretability for practical educational applications
 - **CS197 Insight**: Bridges statistical rigor with educational utility, identifying student subgroups and skill difficulty patterns for targeted instruction
 
+### KT²: Knowledge-Tree-based Knowledge Tracing (2025)
+- **Authors**: Xinyi Gao, Qiucheng Wu, Yang Zhang, Xuechen Liu, Kaizhi Qian, Ying Xu, Shiyu Chang
+- **Key Findings**: Hierarchical probabilistic framework using Hidden Markov Tree Models for incremental knowledge tracing in low-resource classroom settings; consistently outperforms baselines through hierarchical KC information exploitation
+- **Relevance**: **Bit Flip** - hierarchical knowledge structures provide strong priors enabling effective KT with sparse data
+- **CS197 Insight**: Makes KT practically deployable in realistic educational constraints where historical data is naturally limited
+
+### CAIM: Cognitive AI Memory Framework (2025)
+- **Authors**: Rebecca Westhäußer, Frederik Berenz, Wolfgang Minker, Sebastian Zepf
+- **Key Findings**: Three-module cognitive memory framework (Memory Controller, Memory Retrieval, Post-Thinking) outperforms baseline frameworks across retrieval accuracy, response correctness, contextual coherence, and memory storage
+- **Relevance**: **Bit Flip** - cognitive AI principles provide superior frameworks for long-term memory modeling in interactive systems
+- **CS197 Insight**: Demonstrates cognitive science principles can enhance AI system memory architecture for sustained personalization
+
+### Stochastic Shortest Path Spaced Repetition (2022)
+- **Authors**: Junyao Ye, Jingyong Su, Yilong Cao
+- **Key Findings**: 220 million student memory logs with Markov property modeling; stochastic shortest path algorithm with optimality guarantees achieves 12.6% performance improvement; successfully deployed in MaiMemo serving millions
+- **Relevance**: **Bit Flip** - formal optimization with mathematical guarantees outperforms heuristic scheduling approaches
+- **CS197 Insight**: Bridges theoretical optimization and massive-scale practical deployment, demonstrating scalable principled approaches
+
+### Cognitive Memory in Large Language Models (2025)
+- **Authors**: Lianlei Shan, Shixian Luo, Zezhou Zhu, Yu Yuan, Yong Wu
+- **Key Findings**: Comprehensive cognitive memory architecture categorizing sensory, short-term, and long-term memory with multiple implementation strategies (text-based, KV cache, parameter-based, hidden-state-based)
+- **Relevance**: **Bit Flip** - cognitive memory hierarchies significantly enhance LLM capabilities beyond transformer attention
+- **CS197 Insight**: Systematic framework for implementing cognitively-grounded memory enabling context-rich responses and reduced hallucinations
+
 ### Enhanced Research Gaps (2025 Update)
 
 #### Gap 21: Collaborative AI Architectures for Educational Systems
@@ -451,6 +479,30 @@ Recent 2025 research reveals sophisticated architectural innovations beyond trad
 **Problem**: Educators cannot trust or understand algorithmic recommendations  
 **Opportunity**: Hierarchical Bayesian methods provide both rigor and interpretability  
 **Research Direction**: Develop Bayesian spaced repetition frameworks with uncertainty quantification and explainable scheduling decisions
+
+#### Gap 24: Low-Resource Classroom Deployment
+**Current State**: Knowledge tracing and spaced repetition systems require abundant historical data for effective performance  
+**Problem**: Most real classroom settings have sparse data and limited resources for data collection  
+**Opportunity**: KT² demonstrates hierarchical knowledge structures can provide strong priors for low-resource settings  
+**Research Direction**: Develop hierarchical spaced repetition systems that leverage knowledge taxonomies for data-sparse environments
+
+#### Gap 25: Cognitive Memory Architecture Integration
+**Current State**: Spaced repetition systems use simple memory models without cognitive grounding  
+**Problem**: Lack of structured long-term memory limits sustained personalization and context-aware learning  
+**Opportunity**: CAIM framework shows cognitive memory architectures significantly outperform baseline approaches  
+**Research Direction**: Integrate cognitive memory frameworks (Memory Controller, Memory Retrieval, Post-Thinking) into spaced repetition systems for enhanced long-term interaction
+
+#### Gap 26: Formal Optimization with Scalable Deployment
+**Current State**: Most spaced repetition algorithms lack mathematical optimality guarantees and large-scale validation  
+**Problem**: Heuristic approaches limit performance and don't provide theoretical foundations  
+**Opportunity**: Stochastic shortest path approach achieves 12.6% improvement with formal guarantees at massive scale  
+**Research Direction**: Develop mathematically principled spaced repetition algorithms with provable optimality and demonstrated scalability
+
+#### Gap 27: Comprehensive Cognitive Memory Hierarchies
+**Current State**: Memory systems in educational AI lack systematic cognitive architecture  
+**Problem**: Without proper memory hierarchies, systems cannot achieve context-rich responses or reduce hallucinations effectively  
+**Opportunity**: Cognitive memory frameworks provide systematic approach to sensory, short-term, and long-term memory  
+**Research Direction**: Implement comprehensive cognitive memory hierarchies in spaced repetition systems using text-based, KV cache-based, parameter-based, and hidden-state-based strategies
 
 ### Updated Literature-Level Bit Flip
 
