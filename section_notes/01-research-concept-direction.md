@@ -1,5 +1,6 @@
 
 ## Overview  
+csadas
 I want to investigate how an AI scientist can autonomously discover, design, and evaluate new spaced repetition algorithms. The AI scientist will run experiments on both established methods and newly generated variations, aiming to optimize for long-term retention efficiency, low learner burden, and adaptability across domains.  
 
 ## Key Research Questions  
@@ -19,3 +20,4 @@ Here is the plan:
   - Learner burden (average daily reviews, dropout rate)  
   - Generalization performance across domains  
 - **Reporting**: AI scientist outputs a ranked leaderboard of algorithms, detailed performance analysis, and formal descriptions of novel methods it discovers.  
+ 
