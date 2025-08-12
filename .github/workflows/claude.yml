@@ -139,4 +139,33 @@ jobs:
             Given experiments/<exp_id>/, analyze the results in experiments/<exp_id>/results and experiments/<exp_id>/result.md.
             Once done:
             - Append your analysis to section_notes/05-experiment-analyses.md.
-            - Update analyze.jsonl with your analysis.
+            - Update analyze.jsonl with your analysis. 
+  paper-draft:
+    if: startsWith(github.head_ref, 'paper-draft/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # fetches entire git history
+
+      - name: Write Paper Draft
+        uses: anthropics/claude-code-action@beta
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          timeout_minutes: "60"
+          direct_prompt: |
+            You are a research assistant following CS197 methodology and NEURIPS paper writing guidelines. 
+            Focus on writing a comprehensive paper draft in Latex. Look at the section_notes/ for each crucial section: research concept, literature review, experiment ideas, experiment runs, experiment analyses. 
+            Your Latex structure won't be exactly the same but be faithful to the content in these sections.
+            Use paper.jsonl for further related work papers to cite.
+            You should look at the experiments conducted too in experiments/<exp_id>/result.md to see results of conducted experiments. 
+            Make sure to include at least 5 plots and tables (in pure Latex) from the experiments conducted. 
+            CONSTANTLY double check that your Latex compiles and you are following NEURIPS paper writing guidelines.
+            It should be no longer than 8 pages not including references.
+            Once done:
+            - Add your draft to the paper-drafts/ folder.
